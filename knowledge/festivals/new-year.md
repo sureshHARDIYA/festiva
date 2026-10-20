@@ -1,0 +1,3 @@
+# New Year — concept only
+
+Layered fireworks with rocket acceleration, ballistic movement, branching explosions, gravity/drag-influenced sparks, shimmer, smoke and light. Optional sound unlocked only after user gesture. Guard readability and screen performance. Offer a restrained logo-adjacent variation for business websites. Date range is configurable around December 31–January 1. Visual direction pending approval.
