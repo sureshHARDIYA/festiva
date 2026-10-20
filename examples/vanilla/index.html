@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Festiva demo</title>
+<style>body{margin:0;background:#101d2b;color:#fff;font:16px system-ui}.page{max-width:680px;margin:10vh auto;padding:32px}#logo{position:relative;display:inline-block;font-size:clamp(48px,12vw,92px);font-weight:750;letter-spacing:-.05em;padding:16px}p{color:#baccdd}</style>
+<main class="page"><h1 id="logo">Festiva</h1><p>A subtle decoration around an existing logo. This demo forces Christmas to be visible in any month.</p></main>
+<script type="module">
+import { createFestiva } from "../../dist/index.js";
+const fx=createFestiva({locale:"no",festival:"christmas",target:"#logo",mode:"always"});
+fx.mount();
+window.addEventListener("pagehide",()=>fx.destroy());
+</script>
+</html>
