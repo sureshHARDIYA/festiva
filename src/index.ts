@@ -166,3 +166,6 @@ export function createFestiva(options: FestivaOptions): FestivaController {
   }
   return { mount, refresh, destroy, get active() { return active; } };
 }
+
+export { createSnowfall, mountSnowfallFixtures } from "./snowfall.js";
+export type { SnowfallOptions, SnowfallController } from "./snowfall.js";
